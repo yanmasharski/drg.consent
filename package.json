@@ -1,0 +1,13 @@
+{
+    "name": "com.drg.consent",
+    "version": "0.9.0",
+    "displayName": "DRG Consent",
+    "description": "Consent abstraction: IConsentPlatform and ConsentState. No third-party dependencies.",
+    "unity": "2022.3",
+    "author": {
+        "name": "Jan Mašarski",
+        "email": "yanmasharski@gmail.com",
+        "url": "https://yanmasharski.github.io"
+    },
+    "dependencies": {}
+}

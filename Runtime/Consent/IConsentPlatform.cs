@@ -1,0 +1,12 @@
+namespace DRG.Consent
+{
+    using System;
+    using System.Threading.Tasks;
+
+    public interface IConsentPlatform
+    {
+        ConsentState state { get; }
+        bool TryShowConsentDialog(Action<bool> completed);
+        Task<bool> TryShowConsentDialogAsync();
+    }
+}
