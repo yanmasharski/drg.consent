@@ -1,8 +1,11 @@
 {
-    "name": "DRG.Consent",
+    "name": "DRG.Consent.Runtime",
     "rootNamespace": "DRG.Consent",
     "references": [
-        "DRG.Core"
+        "DRG.Consent",
+        "DRG.Core",
+        "DRG.Utils",
+        "DRG.Utils.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
