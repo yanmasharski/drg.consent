@@ -1,6 +1,7 @@
 .DS_Store
 .idea/
 *.user
+*.md.meta
 LICENSE.meta
 README.md.meta
 package.json.meta
